@@ -1,0 +1,46 @@
+model{
+ for(i in 1:n){# n is the number of obs
+
+
+# Genocide event data
+   logit(p[i,1]) <- alpha1[1] - beta1[1]*x[i]
+   y[i, 1] ~ dbern(p[i,1])
+
+# Rummel event data
+   logit(p[i,2]) <- alpha1[2] - beta1[2]*x[i]
+   y[i, 2] ~ dbern(p[i,2])
+   
+# Massive Repression data
+   logit(p[i,3]) <- alpha1[3] - beta1[3]*x[i]
+   y[i, 3] ~ dbern(p[i,3])
+
+# WHPSI killing  event data
+   logit(p[i,4]) <- alpha1[4] - beta1[4]*x[i]
+   y[i, 4] ~ dbern(p[i,4])
+
+# UPSALA killing  event data
+   logit(p[i,5]) <- alpha1[5] - beta1[5]*x[i]
+   y[i, 5] ~ dbern(p[i,5])
+
+# redraw latent variable parameter from mu matrix because of unbalanced panels
+   x[i] <- mu[country[i], year[i]]
+ }
+
+# draw percision for latent variable parameter estimate
+ sigma ~ dunif(0,1)
+ kappa <- pow(sigma, -1)
+
+# draw dynamic latent variable parameter  
+ for(c in 1:n.country){
+  mu[c, 1] ~ dnorm(0, 1)
+  for(t in 2:n.year){ #n.year is number of years
+   mu[c, t] ~ dnorm(mu[c, t-1], kappa)
+  }
+ }
+ 
+# Genocide, Rummel, Massive Repression, UPSALA killing and WHPSI execution model parameters
+ for(item1 in 1:5){
+  beta1[item1] ~ dgamma(4, 3)
+  alpha1[item1] ~ dnorm(0, .25)
+ }
+}

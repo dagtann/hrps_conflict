@@ -1,0 +1,52 @@
+Afghanistan and USA.R (type/x-r-syntax) 5162 bytes.
+All_Dynamic_Standard_and_EventStandardDynamicX.bug (application/octet-stream) 5966 bytes.
+data1_04.tab (text/tab-separated-values) 623213 bytes.
+EventOnlyDynamicDynamic.bug (application/octet-stream) 1181 bytes.
+Fake_CIRI_FarissAPSRData1949_2010_prepared_for_analysis_04.tab (text/tab-separated-values) 286190 bytes.
+figure 1.R (type/x-r-syntax) 2121 bytes.
+figure 2.R (type/x-r-syntax) 1883 bytes.
+figure 3.csv (text/csv) 512787 bytes.
+figure 3.R (type/x-r-syntax) 2194 bytes.
+figure 4.R (type/x-r-syntax) 2123 bytes.
+figure 5.R (type/x-r-syntax) 1414 bytes.
+figure A3.R (type/x-r-syntax) 4012 bytes.
+figure A4.R (type/x-r-syntax) 3377 bytes.
+figure A5_1.R (type/x-r-syntax) 1813 bytes.
+figure A5_2.R (type/x-r-syntax) 1768 bytes.
+Figure A_1_1.R (type/x-r-syntax) 2182 bytes.
+Figure A_1_2.R (type/x-r-syntax) 2182 bytes.
+Figure A_1_3.R (type/x-r-syntax) 2103 bytes.
+Figure A_1_4.R (type/x-r-syntax) 2155 bytes.
+figure2_04.tab (text/tab-separated-values) 963691 bytes.
+figure2_04_csv.R (type/x-r-syntax) 5154 bytes.
+figure3_1_04.csv (text/csv) 435614 bytes.
+figure3_1_04_csv.R (type/x-r-syntax) 4153 bytes.
+figure3_2_04_csv.R (type/x-r-syntax) 3012 bytes.
+figure5_04.csv (text/csv) 894616 bytes.
+figure5_04_csv.R (type/x-r-syntax) 5229 bytes.
+figureA4_1_0_04.tab (text/tab-separated-values) 549910 bytes.
+figureA4_1_1_04.tab (text/tab-separated-values) 350113 bytes.
+figureA4_1_1_04_csv_&_figureA4_1_0_04.R (type/x-r-syntax) 14246 bytes.
+figureA4_2_0_04.tab (text/tab-separated-values) 538682 bytes.
+figureA4_2_1_04.tab (text/tab-separated-values) 347020 bytes.
+figureA4_2_1_04_csv_&_figureA4_2_0_04.R (type/x-r-syntax) 14186 bytes.
+figureA4_3_0_04.tab (text/tab-separated-values) 509002 bytes.
+figureA4_3_1_04.tab (text/tab-separated-values) 330988 bytes.
+figureA4_3_1_04_csv_&_figureA4_3_0_04.R (type/x-r-syntax) 14188 bytes.
+figureA4_3_1_04_old.tab (text/tab-separated-values) 329616 bytes.
+figureA5_1_04.tab (text/tab-separated-values) 194339 bytes.
+figureA5_1_04_csv.R (type/x-r-syntax) 6047 bytes.
+figureA5_2_04.tab (text/tab-separated-values) 452313 bytes.
+figureA5_2_04_csv.R (type/x-r-syntax) 4655 bytes.
+HumanRightsProtectionScores_v2.04.tab (text/tab-separated-values) 671034 bytes.
+InputData_Random_CIRI_DynamicDynamicX1980_20000.R (type/x-r-syntax) 4016 bytes.
+install_R_packages_for_replication.R (type/x-r-syntax) 178 bytes.
+LatentRepressionDynamicStandardDynamicX.bug (application/octet-stream) 5550 bytes.
+LatentRepressionDynamicStandardDynamicX.R (type/x-r-syntax) 13080 bytes.
+Mexico and USA.R (type/x-r-syntax) 5152 bytes.
+Mongolia and USA.R (type/x-r-syntax) 5151 bytes.
+NoEventDynamicDynamic.bug (application/octet-stream) 5000 bytes.
+Readme How to replicate  figures.rtf (application/rtf) 60769 bytes.
+Readme How to replicate input cvs files .rtf (application/rtf) 65401 bytes.
+South Africa and USA.R (type/x-r-syntax) 5155 bytes.
+Venezuela and USA.R (type/x-r-syntax) 5158 bytes.
